@@ -1,0 +1,14 @@
+{     
+    "description": "Collect Offers Browser Extension", 
+    "creator": "Kango", 
+    "background_scripts": ["main.js"], 
+    "content_scripts": ["content.js"],
+    "homepage_url": "http://collectoffers.com/", 
+    "version": "0.9.0", 
+    "browser_button": {
+        "caption": "Collect Offers", 
+        "icon": "icons/button.png", 
+        "tooltipText": "Collect Offers"
+    }, 
+    "name": "Collect Offers"
+}
